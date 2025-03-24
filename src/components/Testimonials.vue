@@ -36,7 +36,7 @@ const testimonials = ref([
     name: "Michael Wilson",
     text: "Their expertise in cyber security is unparalleled.",
     service: "Cyber Security Packages",
-    avatar: "/img/mich.jpexg",
+    avatar: "/img/mich.jpeg",
   },
 ]);
 </script>

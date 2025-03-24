@@ -78,34 +78,25 @@ const packages = ref({
 <template>
   <div class="container mx-auto p-4">
     <h2 class="text-2xl font-bold mb-4 text-center">Service Packages</h2>
-    <div class="overflow-x-auto">
-      <div v-for="(category, categoryName) in packages" :key="categoryName" class="mb-6">
-        <h3 class="text-xl font-semibold mb-2 text-center">{{ categoryName }}</h3>
-        <table class="min-w-full border border-gray-300">
-          <thead>
-            <tr class="bg-gray-200">
-              <th class="border border-gray-300 px-4 py-2">Package</th>
-              <th class="border border-gray-300 px-4 py-2">Features</th>
-              <th class="border border-gray-300 px-4 py-2">Price Range</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(packageItem, index) in category" :key="index" class="bg-white hover:bg-gray-100">
-              <td class="border border-gray-300 px-4 py-2 font-bold">{{ packageItem.name }}</td>
-              <td class="border border-gray-300 px-4 py-2">
-                <ul class="list-disc ml-4">
-                  <li v-for="(feature, featureIndex) in packageItem.features" :key="featureIndex">
-                    {{ feature }}
-                  </li>
-                </ul>
-              </td>
-              <td class="border border-gray-300 px-4 py-2 text-center">{{ packageItem.price }}</td>
-            </tr>
-          </tbody>
-        </table>
+    <div v-for="(category, categoryName) in packages" :key="categoryName" class="mb-6">
+      <h3 class="text-xl font-semibold mb-4 text-center">{{ categoryName }}</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div v-for="(packageItem, index) in category" :key="index" class="bg-white shadow-lg rounded-lg p-6 border border-gray-200">
+          <h4 class="text-lg font-bold mb-2">{{ packageItem.name }}</h4>
+          <ul class="list-disc list-inside mb-4">
+            <li v-for="(feature, featureIndex) in packageItem.features" :key="featureIndex">
+              {{ feature }}
+            </li>
+          </ul>
+          <p class="text-center font-semibold text-gray-700">Price: {{ packageItem.price }}</p>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+  max-width: 1200px;
+}
+</style>
