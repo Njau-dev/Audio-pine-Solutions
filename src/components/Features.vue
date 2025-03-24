@@ -8,6 +8,7 @@
                 Built and Designed with you in Mind</h3>
             <div class="flex flex-col w-full mt-0 lg:flex-row sm:mt-10 lg:mt-20">
 
+                <!-- feature 1 -->
                 <div class="w-full max-w-md p-4 mx-auto mb-0 sm:mb-16 lg:mb-0 lg:w-1/3">
                     <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute w-full h-full text-lightshade fill-current" viewBox="0 0 377 340"
@@ -72,6 +73,7 @@
                     </div>
                 </div>
 
+                <!-- feature 2 -->
                 <div class="w-full max-w-md p-4 mx-auto mb-0 sm:mb-16 lg:mb-0 lg:w-1/3">
                     <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute w-full h-full text-lightshade fill-current" viewBox="0 0 358 372"
@@ -134,7 +136,7 @@
                             More</a>
                     </div>
                 </div>
-
+                <!-- feature 3 -->
                 <div class="w-full max-w-md p-4 mx-auto mb-16 lg:mb-0 lg:w-1/3">
                     <div class="relative flex flex-col items-center justify-center w-full h-full p-20 mr-5 rounded-lg">
                         <svg class="absolute w-full h-full text-lightshade fill-current" viewBox="0 0 378 410"
