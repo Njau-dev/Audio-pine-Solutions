@@ -10,13 +10,8 @@ const isMobileMenuOpen = ref(false);
     <div class="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0">
       <!-- Logo -->
       <a href="/" class="relative flex items-center h-full font-black leading-none">
-        <svg class="w-auto h-6 text-primary fill-current" viewBox="0 0 194 116" xmlns="http://www.w3.org/2000/svg">
-          <g fill-rule="evenodd">
-            <path d="M96.869 0L30 116h104l-9.88-17.134H59.64l47.109-81.736zM0 116h19.831L77 17.135 67.088 0z" />
-            <path d="M87 68.732l9.926 17.143 29.893-51.59L174.15 116H194L126.817 0z" />
-          </g>
-        </svg>
-        <span class="ml-3 text-xl text-text">Landmark<span class="text-pink-500">.</span></span>
+        <img src="/src/assets/images/logo.jpeg" alt="Logo" class="w-auto h-12" >
+        <span class="ml-3 text-xl text-text">AudioPine Solutions<span class="text-primary">.</span></span>
       </a>
 
       <!-- Desktop Navigation -->
@@ -63,11 +58,11 @@ const isMobileMenuOpen = ref(false);
                     <g fill="none" fill-rule="evenodd" opacity=".9">
                         <g transform="rotate(65 416.452 409.167)">
                             <use fill="#000" filter="url(#a)" xlink:href="#b" />
-                            <use fill="url(#c)" xlink:href="#b" />
+                            <use fill="#6cb446" xlink:href="#b" />
                         </g>
                         <g transform="rotate(29 421.929 414.496)">
                             <use fill="#000" filter="url(#d)" xlink:href="#e" />
-                            <use fill="url(#f)" xlink:href="#e" />
+                            <use fill="#314d4e" xlink:href="#e" />
                         </g>
                     </g>
                 </svg>
