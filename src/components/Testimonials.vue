@@ -97,7 +97,7 @@ export default {
                   </svg>
                   <p class="mt-2 text-base text-secondary">{{ testimonial.quote }}</p>
                 </div>
-                <h3 class="pl-12 mt-3 text-base font-medium leading-5 text-text truncate">
+                <h3 class="pl-12 mt-3 text-xl font-medium leading-5 text-text truncate">
                   {{ testimonial.name }}
                   <span class="mt-1 text-sm leading-5 text-secondary truncate">
                     - {{ testimonial.position }}
@@ -131,7 +131,7 @@ export default {
                   </svg>
                   <p class="mt-2 text-base text-secondary">{{ testimonial.quote }}</p>
                 </div>
-                <h3 class="pl-12 mt-3 text-base font-medium leading-5 text-text truncate">
+                <h3 class="pl-12 mt-3 text-xl font-medium leading-5 text-text truncate">
                   {{ testimonial.name }}
                   <span class="mt-1 text-sm leading-5 text-secondary truncate">
                     - {{ testimonial.position }}
