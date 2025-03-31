@@ -17,9 +17,10 @@ const isMobileMenuOpen = ref(false);
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center space-x-6 lg:space-x-8 text-text">
         <a href="#" class="font-bold duration-100  hover:text-primary">Home</a>
-        <a href="#features" class="font-bold duration-100  hover:text-primary">Features</a>
+        <a href="#services" class="font-bold duration-100  hover:text-primary">Services</a>
         <a href="#pricing" class="font-bold duration-100  hover:text-primary">Pricing</a>
         <a href="#testimonials" class="font-bold duration-100  hover:text-primary">Testimonials</a>
+        <a href="#contact" class="text-lg font-bold hover:text-primary">Contact</a>
         <div class="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-border md:relative md:w-auto md:bg-transparent md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between">
           <ThemeSwitcher class="px-3 py-2 text-sm font-bold  z-30 cursor-pointer"/>
           <a href="#" class="px-5 py-3 text-sm font-bold text-primary z-30 bg-white rounded shadow-md hover:shadow-xl transition-all">
@@ -100,7 +101,7 @@ const isMobileMenuOpen = ref(false);
             <a href="#features" class="text-lg font-bold hover:text-primary">Features</a>
             <a href="#pricing" class="text-lg font-bold hover:text-primary">Pricing</a>
             <a href="#testimonials" class="text-lg font-bold hover:text-primary">Testimonials</a>
-            
+            <a href="#contact" class="text-lg font-bold hover:text-primary">Contact</a>
             <div class="w-full pt-4 mt-4 border-t border-border">
               <ThemeSwitcher class="block mx-auto px-5 py-3 text-center text-text bg-bg rounded shadow-md cursor-pointer"/>
               <a href="#" class="block w-full px-5 py-3 mt-2 text-center text-white bg-primary rounded shadow-md">
