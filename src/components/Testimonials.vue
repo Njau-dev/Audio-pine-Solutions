@@ -1,38 +1,39 @@
 
 <script>
+import SteveImg from '../assets/images/steve.jpeg';
+import jon  from '../assets/images/jon.jpeg';
+import dow from '../assets/images/dow.jpeg';
+import Jane from '../assets/images/jane.jpeg';
 export default {
   name: "Testimonials",
   data() {
     return {
       testimonials: [
         {
-          quote: "I'm loving these templates! Very nice features and layouts.",
+          quote: "Working with this web development team was a game-changer for my business. They created a stunning, user-friendly website that helped me attract more customers and grow online.",
           name: "Sandra Walton",
           position: "CEO SomeCompany",
-          image:
-            "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2694&q=80"
+          image: Jane,
         },
         {
-          quote: "Really digging this service. Now I can quickly bootstrap any project.",
+          quote: "I was skeptical about upgrading my stock speakers, but the difference is night and day. The bass is powerful, and the clarity is insane!"
+,
           name: "Kenny Jones",
-          position: "CEO SomeCompany",
-          image:
-            "https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80"
+          position: "Driver",
+          image: SteveImg, 
         },
         {
-          quote: "Extremely helpful in every single project we have released.",
+          quote: "As a cybersecurity professional, I’ve helped businesses recover from attacks and strengthen their defenses. Seeing clients regain confidence in their security drives my passion for this field.",
           name: "Mike Smith",
           position: "CEO SomeCompany",
-          image:
-            "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80"
-        },
+          image: dow,
+         },
         {
-          quote: "Finally a quick and easy system I can use for any type of project.",
+          quote: "Joining this audio club was an amazing experience! The sound quality, engaging discussions, and expert insights have truly enhanced my learning and entertainment.",
           name: "Molly Sanchez",
           position: "CEO SomeCompany",
-          image:
-            "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80"
-        }
+          image: jon, 
+         }
       ]
     };
   },
@@ -103,11 +104,9 @@ export default {
                   </span>
                 </h3>
               </div>
-              <img
-                class="flex-shrink-0 object-cover w-24 h-24 mb-5 bg-gray-300 rounded-full md:mb-0"
-                :src="testimonial.image"
-                :alt="testimonial.name"
-              />
+              <img :src="testimonial.image" class="flex-shrink objetct w-24 h-24 mb-5 rounded-full md:mb-0" :alt="testimonial.name" />
+
+
             </blockquote>
           </div>
           
