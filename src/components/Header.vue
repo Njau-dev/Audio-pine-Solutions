@@ -11,7 +11,7 @@ const isMobileMenuOpen = ref(false);
       <!-- Logo -->
       <a href="/" class="relative flex items-center h-full font-black leading-none">
         <img src="/src/assets/images/logo.jpeg" alt="Logo" class="w-auto h-12" >
-        <span class="ml-3 text-xl text-text">AudioPine Solutions<span class="text-primary">.</span></span>
+        <span class="ml-3 text-xl text-text">AudioPine <span class="text-primary">.</span></span>
       </a>
 
       <!-- Desktop Navigation -->

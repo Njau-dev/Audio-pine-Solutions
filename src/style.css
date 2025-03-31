@@ -3,13 +3,12 @@
 :root {
     --color-bg: #f9fafb;
     --color-text: #1a212d;
-    --color-primary: #6cb446;
     --color-secondary: #6a7282;
     --color-border: #d1d5db;
     --color-lightshade: #f3f4f6;
 
-    /* --color-purple: #4f39f6; */
-
+    --color-primary: #6cb446;
+    --color-company: #314d4e;
 }
 
 [data-theme="dark"] {
@@ -28,4 +27,5 @@
     --color-secondary: var(--color-secondary);
     --color-border: var(--color-border);
     --color-lightshade: var(--color-lightshade);
+    --color-company: var(--color-company);
 }

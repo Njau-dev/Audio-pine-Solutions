@@ -30,7 +30,7 @@
                             <div class="flex flex-wrap px-6 mt-8">
                                 <ul>
                                     <li class="flex items-center">
-                                        <div class="p-2 text-green-500 rounded-full fill-current ">
+                                        <div class="p-2 text-primary rounded-full fill-current ">
                                             <svg class="w-6 h-6 align-middle" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                                 stroke-linejoin="round">
@@ -41,7 +41,7 @@
                                         <span class="ml-3 text-lg text-secondary font-medium">Awesome Feature</span>
                                     </li>
                                     <li class="flex items-center">
-                                        <div class="p-2 text-green-500 rounded-full fill-current ">
+                                        <div class="p-2 text-primary rounded-full fill-current ">
                                             <svg class="w-6 h-6 align-middle" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                                 stroke-linejoin="round">
@@ -52,7 +52,7 @@
                                         <span class="ml-3 text-lg text-secondary font-medium">And Another Cool Feature</span>
                                     </li>
                                     <li class="flex items-center">
-                                        <div class="p-2 text-green-500 rounded-full fill-current ">
+                                        <div class="p-2 text-primary rounded-full fill-current ">
                                             <svg class="w-6 h-6 align-middle" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                                 stroke-linejoin="round">
@@ -66,7 +66,7 @@
                             </div>
                             <div class="flex items-center  p-8 uppercase">
                                 <a href="#_"
-                                    class="block w-full px-6 py-4 mt-3 text-lg font-semibold text-center text-white bg-primary rounded shadow-sm hover:bg-green-600">Select
+                                    class="block w-full px-6 py-4 mt-3 text-lg font-semibold text-center text-white bg-primary rounded shadow-sm hover:bg-company">Select
                                     This Plan</a>
                             </div>
                         </div>
@@ -91,7 +91,7 @@
                         <div class="flex justify-start pl-12 mt-8 sm:justify-start">
                             <ul>
                                 <li class="flex items-center">
-                                    <div class="p-2 text-green-500 rounded-full fill-current">
+                                    <div class="p-2 text-primary rounded-full fill-current">
                                         <svg class="w-6 h-6 align-middle" viewBox="0 0 24 24" fill="none"
                                             stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round">
@@ -102,7 +102,7 @@
                                     <span class="ml-3 text-lg text-secondary font-medium">Really Cool Features</span>
                                 </li>
                                 <li class="flex items-center">
-                                    <div class="p-2 text-green-500 rounded-full fill-current ">
+                                    <div class="p-2 text-primary rounded-full fill-current ">
                                         <svg class="w-6 h-6 align-middle" viewBox="0 0 24 24" fill="none"
                                             stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round">
@@ -113,7 +113,7 @@
                                     <span class="ml-3 text-lg text-secondary font-medium">Another Cool Feature</span>
                                 </li>
                                 <li class="flex items-center">
-                                    <div class="p-2 text-green-500 rounded-full fill-current ">
+                                    <div class="p-2 text-primary rounded-full fill-current ">
                                         <svg class="w-6 h-6 align-middle" viewBox="0 0 24 24" fill="none"
                                             stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round">
@@ -128,7 +128,7 @@
 
                         <div class="flex items-center p-8 uppercase">
                             <a href="#_"
-                                class="block w-full px-6 py-4 mt-3 text-lg font-semibold text-center text-white bg-primary rounded shadow-sm hover:bg-green-500">Select
+                                class="block w-full px-6 py-4 mt-3 text-lg font-semibold text-center text-white bg-primary rounded shadow-sm hover:bg-company">Select
                                 This Plan</a>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                             <div class="flex flex-wrap px-8 mt-8">
                                 <ul>
                                     <li class="flex items-center">
-                                        <div class="p-2 text-green-500 rounded-full fill-current ">
+                                        <div class="p-2 text-primary rounded-full fill-current ">
                                             <svg class="w-6 h-6 align-middle" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                                 stroke-linejoin="round">
@@ -162,7 +162,7 @@
                                         <span class="ml-3 text-lg text-secondary font-medium">Totally Tubular Feature</span>
                                     </li>
                                     <li class="flex items-center">
-                                        <div class="p-2 text-green-500 rounded-full fill-current ">
+                                        <div class="p-2 text-primary rounded-full fill-current ">
                                             <svg class="w-6 h-6 align-middle" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                                 stroke-linejoin="round">
@@ -173,7 +173,7 @@
                                         <span class="ml-3 text-lg text-secondary font-medium">Super Cool Feature</span>
                                     </li>
                                     <li class="flex items-center">
-                                        <div class="p-2 text-green-500 rounded-full fill-current ">
+                                        <div class="p-2 text-primary rounded-full fill-current ">
                                             <svg class="w-6 h-6 align-middle" viewBox="0 0 24 24" fill="none"
                                                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                                 stroke-linejoin="round">
@@ -188,7 +188,7 @@
 
                             <div class="flex items-center p-8 uppercase">
                                 <a href="#_"
-                                    class="block w-full px-6 py-4 mt-3 text-lg font-semibold text-center text-white bg-primary rounded shadow-sm hover:bg-green-600">Select
+                                    class="block w-full px-6 py-4 mt-3 text-lg font-semibold text-center text-white bg-primary rounded shadow-sm hover:bg-company">Select
                                     This Plan</a>
                             </div>
                         </div>
