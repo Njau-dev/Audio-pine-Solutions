@@ -12,26 +12,26 @@ export default {
         {
           quote: "Working with this web development team was a game-changer for my business. They created a stunning, user-friendly website that helped me attract more customers and grow online.",
           name: "Sandra Walton",
-          position: "CEO SomeCompany",
+          position: "Web Development Services",
           image: Jane,
         },
         {
           quote: "I was skeptical about upgrading my stock speakers, but the difference is night and day. The bass is powerful, and the clarity is insane!"
 ,
           name: "Kenny Jones",
-          position: "Driver",
+          position: "Audio Services",
           image: SteveImg, 
         },
         {
-          quote: "As a cybersecurity professional, I’ve helped businesses recover from attacks and strengthen their defenses. Seeing clients regain confidence in their security drives my passion for this field.",
+          quote: "Securing our business has always been a priority as much as growth is and they have helped us through each step to ensure we are safe",
           name: "Mike Smith",
-          position: "CEO SomeCompany",
+          position: "Cyber Security Services",
           image: dow,
          },
         {
-          quote: "Joining this audio club was an amazing experience! The sound quality, engaging discussions, and expert insights have truly enhanced my learning and entertainment.",
+          quote: "My business has registered more sales and online recognition since I started working with them, growth has been very evident and easy to track with their user friendly tools to manage your business.",
           name: "Molly Sanchez",
-          position: "CEO SomeCompany",
+          position: "Advanced Web development",
           image: jon, 
          }
       ]
