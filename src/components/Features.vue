@@ -23,7 +23,7 @@
                             </defs>
                             <path fill="url(#repairGrad)" d="M21 11.18V9.72c0-.47-.16-.92-.46-1.28L18.6 6.54c-.38-.46-.94-.73-1.54-.73h-1.7c-.81 0-1.58.31-2.16.87l-5.5 5.5 1.41 1.41 3.09-3.09c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-3.08 3.09 1.41 1.41 3.09-3.09c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-3.09 3.09 1.41 1.41 5.5-5.5c.55-.58.86-1.35.86-2.16zm-3.19 1.87c-.31.31-.85.09-.85-.36v-.85c0-.41.34-.75.75-.75h.85c.45 0 .67.54.35.85l-.1.11zM10.18 17.06l-2.12-2.12 2.44-2.44 2.12 2.12-2.44 2.44z"/>
                         </svg>
-                        <h4 class="relative mt-6 text-lg font-bold text-text">Computer Repair</h4>
+                        <h4 class="relative mt-6 text-lg font-bold text-text text-center">Computer Repair</h4>
                         <p class="relative mt-2 text-base text-center text-secondary">Expert diagnostics and repair for laptops, desktops, and mobile devices with 24/7 emergency support.</p>
                         <a href="#_" class="relative flex mt-2 text-sm font-medium text-primary underline">Learn More</a>
                     </div>
@@ -44,7 +44,7 @@
                             </defs>
                             <path fill="url(#cyberGrad)" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm2.5 11.59l.9 2.89-2.4-1.81-.9 2.87-2.4-1.81 3.14-.03 1.06-3.11 1.06 3.11 3.14.03-2.4 1.81z"/>
                         </svg>
-                        <h4 class="relative mt-6 text-lg font-bold text-text">Cybersecurity Consulting</h4>
+                        <h4 class="relative mt-6 text-lg font-bold text-text text-center">Cybersecurity Consulting</h4>
                         <p class="relative mt-2 text-base text-center text-secondary">Enterprise-grade security solutions including penetration testing and compliance auditing.</p>
                         <a href="#_" class="relative flex mt-2 text-sm font-medium text-primary underline">Learn More</a>
                     </div>
@@ -65,7 +65,7 @@
                             </defs>
                             <path fill="url(#softwareGrad)" d="M18 15v3H6v-3H4v3c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-3h-2zm-1-4l-1.41-1.41L13 12.17V4h-2v8.17L8.41 9.59 7 11l5 5 5-5z"/>
                         </svg>
-                        <h4 class="relative mt-6 text-lg font-bold text-text">Software Development</h4>
+                        <h4 class="relative mt-6 text-lg font-bold text-text text-center">Software Development</h4>
                         <p class="relative mt-2 text-base text-center text-secondary">Full-cycle development of custom business applications and system integrations.</p>
                         <a href="#_" class="relative flex mt-2 text-sm font-medium text-primary underline">Learn More</a>
                     </div>
@@ -86,7 +86,7 @@
                             </defs>
                             <path fill="url(#networkGrad)" d="M17 7l-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5-5-5zM4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4V5z"/>
                         </svg>
-                        <h4 class="relative mt-6 text-lg font-bold text-text">Network Installation</h4>
+                        <h4 class="relative mt-6 text-lg font-bold text-text text-center">Network Installation</h4>
                         <p class="relative mt-2 text-base text-center text-secondary">Enterprise network infrastructure design and implementation with 99.9% uptime guarantee.</p>
                         <a href="#_" class="relative flex mt-2 text-sm font-medium text-primary underline">Learn More</a>
                     </div>
@@ -107,7 +107,7 @@
                             </defs>
                             <path fill="url(#trainingGrad)" d="M12 6v3l4-4-4-4v3c-4.42 0-8 3.58-8 8 0 1.57.46 3.03 1.24 4.26L6.7 14.8c-.45-.83-.7-1.79-.7-2.8 0-3.31 2.69-6 6-6zm6.76 1.74L17.3 9.2c.44.84.7 1.79.7 2.8 0 3.31-2.69 6-6 6v-3l-4 4 4 4v-3c4.42 0 8-3.58 8-8 0-1.57-.46-3.03-1.24-4.26z"/>
                         </svg>
-                        <h4 class="relative mt-6 text-lg font-bold text-text">IT Training</h4>
+                        <h4 class="relative mt-6 text-lg font-bold text-text text-center">IT Training</h4>
                         <p class="relative mt-2 text-base text-center text-secondary">Certified professional development programs in cutting-edge technologies and frameworks.</p>
                         <a href="#_" class="relative flex mt-2 text-sm font-medium text-primary underline">Learn More</a>
                     </div>
@@ -128,7 +128,7 @@
                             </defs>
                             <path fill="url(#dataGrad)" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-5h2v5zm4 0h-2v-3h2v3zm0-5h-2v-2h2v2zm4 5h-2V7h2v10z"/>
                         </svg>
-                        <h4 class="relative mt-6 text-lg font-bold text-text">Data Analyzation</h4>
+                        <h4 class="relative mt-6 text-lg font-bold text-text text-center">Data Analyzation</h4>
                         <p class="relative mt-2 text-base text-center text-secondary">Advanced business intelligence solutions with predictive analytics and visualization tools.</p>
                         <a href="#_" class="relative flex mt-2 text-sm font-medium text-primary underline">Learn More</a>
                     </div>
