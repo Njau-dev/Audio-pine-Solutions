@@ -97,14 +97,18 @@ export default {
                   </svg>
                   <p class="mt-2 text-base text-secondary">{{ testimonial.quote }}</p>
                 </div>
-                <h3 class="pl-12 mt-3 text-xl font-medium leading-5 text-text truncate">
+                <h3 class="pl-12 mt-3 text-base font-medium leading-5 text-text truncate">
                   {{ testimonial.name }}
                   <span class="mt-1 text-sm leading-5 text-secondary truncate">
                     - {{ testimonial.position }}
                   </span>
                 </h3>
               </div>
-              <img :src="testimonial.image" class="flex-shrink objetct w-24 h-24 mb-5 rounded-full md:mb-0" :alt="testimonial.name" />
+              <img 
+                class="flex-shrink-0 object-cover w-24 h-24 mb-5 rounded-full md:mb-0" 
+                :alt="testimonial.name"
+                :src="testimonial.image"
+              />
 
 
             </blockquote>
@@ -131,7 +135,7 @@ export default {
                   </svg>
                   <p class="mt-2 text-base text-secondary">{{ testimonial.quote }}</p>
                 </div>
-                <h3 class="pl-12 mt-3 text-xl font-medium leading-5 text-text truncate">
+                <h3 class="pl-12 mt-3 text-base font-medium leading-5 text-text truncate">
                   {{ testimonial.name }}
                   <span class="mt-1 text-sm leading-5 text-secondary truncate">
                     - {{ testimonial.position }}
