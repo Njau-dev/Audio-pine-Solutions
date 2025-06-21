@@ -65,7 +65,7 @@
                 </div>
                 <div>
                   <h4 class="text-lg font-bold text-text mb-2">Call Us</h4>
-                  <p class="text-secondary">0748 025186 <br/> 0705984048 <br>Mon-Sat: 9am - 5pm EST</p>
+                  <p class="text-secondary">0748 025186 <br/>  <br>Mon-Sat: 9am - 5pm EST</p>
                 </div>
               </div>
   
